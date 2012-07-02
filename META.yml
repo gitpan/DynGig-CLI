@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DynGig-CLI
-version:            0.01
+version:            0.02
 abstract:           A collection of CLI modules
 author:
     - Kan Liu <kan@cpan.org>
@@ -19,6 +19,7 @@ requires:
     DynGig::Range:        1
     DynGig::Range::Cluster:  0
     DynGig::RCE:          1
+    DynGig::Schedule:     0
     DynGig::Util:         1
     File::Spec:           0
     File::Temp:           0

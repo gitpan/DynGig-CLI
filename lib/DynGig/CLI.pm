@@ -7,12 +7,20 @@ package DynGig::Util;
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 MODULES
+
+=head2 DynGig::CLI::Schedule::Make
+
+Making a schedule config from polices
+
+=head2 DynGig::CLI::Schedule::Period
+
+Scheduling tool
 
 =head2 DynGig::CLI::OpsDB
 

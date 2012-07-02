@@ -23,6 +23,7 @@ WriteMakefile(
         'DynGig::Range::Cluster' => 0,
         'DynGig::RCE' => 1.00,
         'DynGig::Util' => 1.00,
+        'DynGig::Schedule' => 0,
         'File::Spec' => 0,
         'File::Temp' => 0,
         'Getopt::Long' => 0,
