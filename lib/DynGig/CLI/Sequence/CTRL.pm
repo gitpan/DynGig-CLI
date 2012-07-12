@@ -100,7 +100,7 @@ sub main
         $file{$name} = +{ map { $_ => $sequence->file( $_ ) } @file };
     }
 
-    my $this = bless +{ file => \%file }, $class;
+    my $this = bless \%file, $class;
     my @name = sort keys %file;
 ##  tail
     while ( $option{t} )
@@ -175,7 +175,7 @@ sub main
 sub _tail
 {
     my ( $this, $name, $count ) = @_;
-    my $file = $this->{file}{$name};
+    my $file = $this->{$name};
 
     return unless DynGig::Util::LockFile::PID->check( $file->{pid} );
 
@@ -196,7 +196,7 @@ sub _tail
 sub _status
 {
     my ( $this, $name, $alert ) = @_;
-    my $file = $this->{file}{$name};
+    my $file = $this->{$name};
     my @status;
 
     if ( my $sec = DynGig::Util::LockFile::Time->check( $file->{lock} ) )

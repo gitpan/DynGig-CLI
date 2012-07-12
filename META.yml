@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               DynGig-CLI
-version:            0.02
+version:            0.03
 abstract:           A collection of CLI modules
 author:
     - Kan Liu <kan@cpan.org>

@@ -1,13 +1,12 @@
 Changes
-lib/DynGig/CLI.pm
 Makefile.PL
 MANIFEST			This list of files
 README
+lib/DynGig/CLI/Schedule/Make.pm
+lib/DynGig/CLI/Schedule/Period.pm
 lib/DynGig/CLI/Cluster/Cache.pm
 lib/DynGig/CLI/Cluster/Server.pm
 lib/DynGig/CLI/Cluster/Client.pm
-lib/DynGig/CLI/Schedule/Make.pm
-lib/DynGig/CLI/Schedule/Period.pm
 lib/DynGig/CLI/Sequence/Run.pm
 lib/DynGig/CLI/Sequence/CTRL.pm
 lib/DynGig/CLI/Service.pm
